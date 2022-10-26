@@ -1,0 +1,33 @@
+:root {
+   font-size: 62.5%;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+}
+
+#container {
+   height: 100%;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - */
+main {
+   background: blue;
+
+   width: max-content;
+
+   margin: 5rem auto;
+   padding: 8rem 4rem;
+
+   display: flex;
+   flex-direction: column;
+
+   border: none;
+   border-radius: 0.5rem;
+}
