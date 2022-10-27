@@ -13,6 +13,8 @@ body {
    height: 100vh;
 
    font-family: 'Roboto', sans-serif;
+   font-size: 1.8rem;
+
 }
 
 #container {
@@ -39,21 +41,51 @@ input {
    background: #264653;
    color: #FFF;
 
+   font-size: 1.6rem;
    padding: 1rem 1.5rem;
-   margin: 1rem 0;
+   margin-bottom: 2rem;
 
    border: none;
    border-radius: 0rem 1rem 1rem 1rem;
 }
 
+#divBTN {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+button {
+   background: #C3F20A;
+   font-weight: bold;
+
+   width: 40%;
+   padding: 1rem;
+
+   border: none;
+   border-radius: 0.2rem;
+
+   box-shadow: 0px 2px 2px #000;
+}
+button:hover {
+   background: #C3F73A;
+   box-shadow: 0px 3px 4px #000;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - */
 #painel {
-   background: blue;
+   background: #2A9D8F;
+   color: #fff;
+
+   padding: 10rem;
 
    display: flex;
    flex-direction: column;
    align-items: center;
+}
 
+#painel strong {
+   color: #C3F73A;
 }
 
 

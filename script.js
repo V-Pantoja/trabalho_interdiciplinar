@@ -1,4 +1,5 @@
 function dataEnviar() {
+   document.body.style.background = '#2A9D8F';
 
    //pega os valores inseridos pelo usuario
    let user = document.getElementById('user').value;
