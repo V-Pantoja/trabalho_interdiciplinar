@@ -7,6 +7,7 @@
    <title>Produção Textual - Interdiciplinar</title>
 
    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./animation.css">
 
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +18,15 @@
 
    <div id="container">
       <main>
-         <input type="text" id="user" placeholder="Usuário" />
-         <input type="password" id="senha" placeholder="Senha" />
+         <input type="text" id="user" placeholder="Usuário" autocomplete="off" />
+         <input type="password" id="senha" placeholder="Senha" autocomplete="off" />
 
          <div id="divBTN">
             <button id="btnE" onclick="dataEnviar()">Enviar</button>
             <button id="btnC" onclick="dataCancelar()">Cancelar</button>
          </div>
+         
+         <div class="progress-bar"></div>
       </main>
    </div>
    
