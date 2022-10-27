@@ -14,7 +14,7 @@ function dataEnviar() {
    painel.setAttribute('id', 'painel');
 
    painel.innerHTML = `
-      <h1>Bem Vindo, ${user}</h1><br/>
+      <h1>Bem Vindo, ${user}!</h1><br/>
       <p>Esperamos que sua senha: <strong>${senha}</strong> seja complexa o suficiente para a segurança do seu login!</p>`;
    console.log(painel);
    
@@ -24,8 +24,6 @@ function dataEnviar() {
 }
 
 function dataCancelar() {
-   console.log(user + ' + ' + senha);
-
-   user = '';
-   senha = '';
+   document.getElementById('user').value = '';
+   document.getElementById('senha').value = '';
 }
